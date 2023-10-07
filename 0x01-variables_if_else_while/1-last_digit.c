@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- *main - entry point
+ * main - This program prints the last digit of randomly
+ * numbers if n > 5 || n == 0, and n < 6 && != 0
  *
- *Return : return 0 if successful followed by a new line
+ * Return: always 0 if successful followed by a new line
  */
 int main(void)
 {
