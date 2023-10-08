@@ -7,12 +7,9 @@
  */
 int main(void)
 {
-	int first = 0;
-	int last = 9;
+	int start;
 
-	char start;
-
-	for (start = first; start <= last; start++)
+	for (start = 0; start <= 9; start++)
 	{
 		putchar(start + '0');
 	}
