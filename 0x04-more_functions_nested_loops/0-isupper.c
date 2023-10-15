@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *_isupper - prints Uppercase letters
- *
- *Return : always 1 if true and 0 if false
+ *@c: input integer
+ *Return: Always return 1 if true and 0 if false
  */
 int _isupper(int c)
 {
